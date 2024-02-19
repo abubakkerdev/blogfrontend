@@ -58,7 +58,7 @@ const Home = () => {
             <ul className="flex items-center gap-10">
               <li>
                 <a
-                  href="#"
+                  href="https://blogfrontend-mu.vercel.app/dashboard"
                   className="font-sans text-base font-semibold text-white/80"
                 >
                   Blog
