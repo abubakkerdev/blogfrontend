@@ -21,7 +21,7 @@ const Registration = () => {
     let config = {
       method: "post",
       maxBodyLength: Infinity,
-      url: "http://localhost:1010/api/v1/backend/auth/register",
+      url: "https://blogbackend-j450.onrender.com/api/v1/backend/auth/register",
       headers: {
         "Content-Type": "multipart/form-data",
       },

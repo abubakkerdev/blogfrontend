@@ -19,7 +19,7 @@ const Home = () => {
     let config = {
       method: "get",
       maxBodyLength: Infinity,
-      url: "http://localhost:1010/api/v1/frontend/blog/all",
+      url: "https://blogbackend-j450.onrender.com/api/v1/frontend/blog/all",
     };
 
     axios
@@ -119,7 +119,7 @@ const Home = () => {
                       <div className="p-4 my-4 border">
                         <img
                           className="object-cover w-full h-60"
-                          src={`http://localhost:1010/api/v1/images/${el.image}`}
+                          src={`https://blogbackend-j450.onrender.com/api/v1/images/${el.image}`}
                           alt=""
                         />
                       </div>
@@ -134,7 +134,7 @@ const Home = () => {
                         <div className="flex items-center space-x-4">
                           <img
                             className="rounded-full w-7 h-7"
-                            src={`http://localhost:1010/api/v1/images/${el.authId.image}`}
+                            src={`https://blogbackend-j450.onrender.com/api/v1/images/${el.authId.image}`}
                             alt="Jese Leos avatar"
                           />
                           <span className="font-medium ">

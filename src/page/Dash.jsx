@@ -28,7 +28,7 @@ const Dash = () => {
     let config = {
       method: "post",
       maxBodyLength: Infinity,
-      url: "http://localhost:1010/api/v1/backend/blog/create",
+      url: "https://blogbackend-j450.onrender.com/api/v1/backend/blog/create",
       headers: {
         "Content-Type": "multipart/form-data",
       },
@@ -96,7 +96,7 @@ const Dash = () => {
     let config = {
       method: "post",
       maxBodyLength: Infinity,
-      url: "http://localhost:1010/api/v1/backend/blog/update",
+      url: "https://blogbackend-j450.onrender.com/api/v1/backend/blog/update",
       headers: {
         "Content-Type": "multipart/form-data",
       },
@@ -160,7 +160,7 @@ const Dash = () => {
     let config = {
       method: "get",
       maxBodyLength: Infinity,
-      url: "http://localhost:1010/api/v1/backend/blog/all",
+      url: "https://blogbackend-j450.onrender.com/api/v1/backend/blog/all",
     };
 
     axios
@@ -209,7 +209,7 @@ const Dash = () => {
           className="flex items-center justify-center w-full h-16 text-xl font-bold text-gray-800 border-b"
         >
           <img
-            src={`http://localhost:1010/api/v1/images/${data.image}`}
+            src={`https://blogbackend-j450.onrender.com/api/v1/images/${data.image}`}
             className="h-8"
           />
         </a>
@@ -404,7 +404,7 @@ const Dash = () => {
                       </td>
                       <td className="p-3 border" width="250px">
                         <img
-                          src={`http://localhost:1010/api/v1/images/${el.image}`}
+                          src={`https://blogbackend-j450.onrender.com/api/v1/images/${el.image}`}
                           className="h-11"
                         />
                       </td>
@@ -466,7 +466,7 @@ const Dash = () => {
                 <td className="border">
 
                 <img
-                          src={`http://localhost:1010/api/v1/images/${editBlog?.image}`}
+                          src={`https://blogbackend-j450.onrender.com/api/v1/images/${editBlog?.image}`}
                           className="h-11"
                         />
                   
